@@ -1,0 +1,25 @@
+{
+  "openreview_id": "Xxq7fcQUNR",
+  "claims": [
+    {
+      "text": "WZ-LLM solves 34 of 100 classical combinatorial identities on the LCI-Test benchmark, compared to 9/100 for the Goedel-Prover-V2 baseline and 1/100 for DeepSeek-V3 (Table 1).",
+      "status": "unverified"
+    },
+    {
+      "text": "A decomposed route combining WZ-Sketch guidance with the specialized WZ-Prover solves 29/100 identities, while direct proving on WZ-uncovered identities solves only 5/100, showing that symbolic guidance from the Wilf-Zeilberger method drives most of the gain (Table 1).",
+      "status": "unverified"
+    },
+    {
+      "text": "At the lemma level, the specialized WZ-Prover achieves 73.34% accuracy (864/1,178 lemmas) versus 47.88% (564/1,178) for Goedel-Prover-V2, demonstrating the benefit of training a prover specialized for WZ-derived recurrence and boundary lemmas (Table 2, Section 4.2).",
+      "status": "unverified"
+    },
+    {
+      "text": "On cross-dataset evaluation, WZ-LLM outperforms Goedel-Prover-V2 on CombiBench (16/100 vs. 12/100) and PutnamBench-Comb (3/36 vs. 0/36), including identities that a symbolic-only WZ baseline cannot resolve (Table 3).",
+      "status": "unverified"
+    },
+    {
+      "text": "The WZ-LLM pipeline decomposes identities into executable proof sketches with recurrence lemmas and boundary obligations (Section 4.1), then trains the specialized prover via a three-stage pipeline of cold-start SFT, expert-verified bootstrapping, and DAPO refinement (Section 4.2).",
+      "status": "unverified"
+    }
+  ]
+}

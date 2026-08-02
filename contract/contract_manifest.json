@@ -1,0 +1,19 @@
+{
+  "retrieved_at_utc": "2026-08-02T10:30:42Z",
+  "source_snapshot": "outputs/live/20260802T103042Z",
+  "openreview_id": "Xxq7fcQUNR",
+  "title": "Automated Formal Proofs of Combinatorial Identities via Wilf\u2013Zeilberger Guidance and LLMs",
+  "claim_count": 5,
+  "maximum_points": 10,
+  "source_urls": {
+    "index": "https://huggingface.co/datasets/ICML-2026-agent-repro/challenge/resolve/main/index.json",
+    "claims": "https://icml-2026-agent-repro-challenge.static.hf.space/claims.json",
+    "claims_anchored": "https://icml-2026-agent-repro-challenge.static.hf.space/claims_anchored.json",
+    "challenge_readme": "https://huggingface.co/datasets/ICML-2026-agent-repro/challenge/resolve/main/README.md"
+  },
+  "sha256": {
+    "metadata.json": "9231220ead995c85fbb4be4304bce09aa7bd2c0ff51cb256344d76d273920092",
+    "live_claims.json": "f007f816fa95eb6934aa23c68c757cbaf358b344138d0774f82436cff8947758",
+    "challenge_readme.md": "027f66e6da758c4a0d75fff6c9298e5322dde64d21a97d33e4367e42c3a421c5"
+  }
+}

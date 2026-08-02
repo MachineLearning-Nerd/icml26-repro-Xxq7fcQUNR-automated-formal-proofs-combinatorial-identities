@@ -1,0 +1,9 @@
+Pinned source audit — arXiv:2605.04472
+
+Archive contents: WZ-LLM.tex, WZ-LLM_framework.pdf, bibliography, style files, lstlean.tex, wz_leantactic.pdf.
+
+Evidence of claimed protocol: WZ-LLM.tex lines 186-192 and 246-258 state the Lean executable-sketch framework and LCI-Test headline claims.
+
+Availability result: no benchmark instances, Lean project/repository revision, WZ-Prover checkpoint, training configuration, seeds, or experiment logs were released in the arXiv source archive. No author code is asserted as pinned.
+
+Local feasibility: finite combinatorial recurrence/boundary proof obligations can be constructed and checked on CPU; the reported 100-instance neural benchmark cannot currently be source-faithfully recreated without released assets.
