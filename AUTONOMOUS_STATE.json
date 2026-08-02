@@ -1,14 +1,15 @@
 {
   "schema_version": 1,
   "openreview_id": "Xxq7fcQUNR",
-  "phase": "claim_1_source_cpu_audit_complete",
-  "next_action": "launch_claim_1_direct_reproduction",
+  "phase": "claim_1_attempt_1_finite_wz_sketch_toy_complete",
+  "next_action": "independent_review_claim_1_toy_then_claim_2_direct_reproduction",
   "active_run_ids": [],
   "completed_milestones": [
     "live_duplicate_gate",
     "live_contract_saved",
     "source_archive_and_pdf_pinned",
-    "claim_1_source_cpu_audit"
+    "claim_1_source_cpu_audit",
+    "claim_1_attempt_1_finite_wz_sketch_toy"
   ],
   "failed_attempts": [],
   "claim_attempt_counts": {
@@ -18,10 +19,16 @@
     "4": 0,
     "5": 0
   },
-  "last_checkpoint": "2026-08-02T10:30:42Z",
+  "last_checkpoint": "2026-08-02T12:30:42Z",
   "last_known_git_commit": "9bebe265516b0e10e7c3a1357775cfa2214d2e5a",
   "publication_allowed": false,
   "compute_policy": "local CPU/local GPU only; no HF cpu-upgrade, Jobs, paid, or remote compute",
   "selection_rationale": "Fresh anchored-contract candidate with 5 claims/10 points and source-audited local formal-proof feasibility; no author executable/data release found in the pinned archive.",
-  "github_repository": "https://github.com/MachineLearning-Nerd/icml26-repro-Xxq7fcQUNR-automated-formal-proofs-combinatorial-identities"
+  "github_repository": "https://github.com/MachineLearning-Nerd/icml26-repro-Xxq7fcQUNR-automated-formal-proofs-combinatorial-identities",
+  "claim_1_outcome": {
+    "verdict": "toy",
+    "scope": "exact-rational finite execution of source Appendix WZ/Lean case identity over n=0..12,m=1..12; not LCI-Test or WZ-LLM model reproduction",
+    "evidence": "outputs/claim1_wz_identity_toy/summary.json",
+    "negative_control": "corrupted alternating sign fails 144/156 nontrivial cells"
+  }
 }

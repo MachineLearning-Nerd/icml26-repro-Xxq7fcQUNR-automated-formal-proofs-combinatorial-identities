@@ -1,0 +1,18 @@
+{
+  "method": "finite exact-rational WZ-sketch identity check",
+  "identity": "sum_k (-1)^k C(n,k) m/(m+k)=1/C(m+n,n)",
+  "source_location": "WZ-LLM.tex Appendix case study / MichaelZ_052 listing",
+  "n_range": [
+    0,
+    12
+  ],
+  "m_range": [
+    1,
+    12
+  ],
+  "cells": 156,
+  "identity_passes": 156,
+  "corrupt_control_fails": 144,
+  "verdict": "toy",
+  "limitation": "No LCI-Test data, WZ-Prover weights, Lean tactic, or baseline inference was released; this does not reproduce 34/100."
+}
