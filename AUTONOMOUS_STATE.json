@@ -4,13 +4,24 @@
   "phase": "claim_1_source_cpu_audit_complete",
   "next_action": "launch_claim_1_direct_reproduction",
   "active_run_ids": [],
-  "completed_milestones": ["live_duplicate_gate", "live_contract_saved", "source_archive_and_pdf_pinned", "claim_1_source_cpu_audit"],
+  "completed_milestones": [
+    "live_duplicate_gate",
+    "live_contract_saved",
+    "source_archive_and_pdf_pinned",
+    "claim_1_source_cpu_audit"
+  ],
   "failed_attempts": [],
-  "claim_attempt_counts": {"1": 1, "2": 0, "3": 0, "4": 0, "5": 0},
+  "claim_attempt_counts": {
+    "1": 1,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0
+  },
   "last_checkpoint": "2026-08-02T10:30:42Z",
-  "last_known_git_commit": null,
+  "last_known_git_commit": "9278f26457843f99ee83630f4c840c68eb1dae80",
   "publication_allowed": false,
   "compute_policy": "local CPU/local GPU only; no HF cpu-upgrade, Jobs, paid, or remote compute",
   "selection_rationale": "Fresh anchored-contract candidate with 5 claims/10 points and source-audited local formal-proof feasibility; no author executable/data release found in the pinned archive.",
-  "github_repository": null
+  "github_repository": "https://github.com/MachineLearning-Nerd/icml26-repro-Xxq7fcQUNR-automated-formal-proofs-combinatorial-identities"
 }
