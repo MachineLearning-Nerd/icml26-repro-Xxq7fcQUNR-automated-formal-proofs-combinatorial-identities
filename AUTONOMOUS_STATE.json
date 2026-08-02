@@ -19,7 +19,7 @@
     "5": 0
   },
   "last_checkpoint": "2026-08-02T10:30:42Z",
-  "last_known_git_commit": "9278f26457843f99ee83630f4c840c68eb1dae80",
+  "last_known_git_commit": "9bebe265516b0e10e7c3a1357775cfa2214d2e5a",
   "publication_allowed": false,
   "compute_policy": "local CPU/local GPU only; no HF cpu-upgrade, Jobs, paid, or remote compute",
   "selection_rationale": "Fresh anchored-contract candidate with 5 claims/10 points and source-audited local formal-proof feasibility; no author executable/data release found in the pinned archive.",
